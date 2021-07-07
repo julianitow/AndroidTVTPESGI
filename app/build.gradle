@@ -18,7 +18,7 @@ android {
 
         buildConfigField "String", "TRAKT_API_KEY", "\"bfe769a892be70c926f9e73dff15d9637354b3037e91a6a2d1f7e680b0beb410\""
         buildConfigField "String", "TRAKT_API_BASE_URL", "\"https://api.trakt.tv/\""
-        buildConfigField "String", "OMDB_API_KEY", "\"9cd64c2\""
+        buildConfigField "String", "OMDB_API_KEY", "\"ba21b073\""
         buildConfigField "String", "OMDB_API_BASE_URL", "\"https://www.omdbapi.com/\""
     }
 
@@ -65,6 +65,7 @@ dependencies {
     implementation 'androidx.palette:palette-ktx:1.0.0'
 
     implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
